@@ -3,7 +3,7 @@ import routes from "./src/routes/postsRouts.js";
 // Importa a biblioteca Express.js para criar a aplicação web.
 
 const app = express();
-app.use(express.static("uplouds"))
+app.use(express.static("uploads"))
 routes(app);
 // Cria uma instância do Express para gerenciar a aplicação.
 

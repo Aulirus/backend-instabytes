@@ -1,5 +1,5 @@
-import { getTodosPosts, criarPost, atualizarPost } from "../models/postModel.js";
 import fs from "fs";
+import { getTodosPosts, criarPost, atualizarPost } from "../models/postModel.js";
 import gerarDescricaoComGemini from "../services/geminiService.js";
 
 export async function listarPosts(req, res) {
